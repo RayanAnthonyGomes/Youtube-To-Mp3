@@ -9,7 +9,7 @@ require("dotenv").config();
 const app = express();
 
 //sservver port numberr
-const PORT = process.env.PORN || 3000;
+const PORT = process.env.PORT || 3000;
 
 // //set template engine
 app.set("view engine", "ejs");
